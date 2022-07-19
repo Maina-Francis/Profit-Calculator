@@ -39,3 +39,17 @@ button{
     background-color: #E15D44;
     color: white
 }
+
+/* Output Screen */
+.output{
+    margin: 50px 0 0 0;
+}
+.output>h3{
+    padding: 15px;
+    color: white;
+    background-color: #E15D44;
+}
+.output-data{
+    height: 400px;
+    background-color: #DFCFBE;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column; 
+    justify-items: space-around;
+    width: 40%;
+    margin: auto;
+    padding: 10px 20px;
+    font-family: poppins;
+}
+.logo{
+    text-align: center;
+    margin: 20px 0 0 0;
+    background-color: #E15D44;
+    color: white;
+}
+form{
+    background-color: #DFCFBE;
+    padding: 10px 20px;
+}
+input{
+    width: 80%;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+button{
+    width: 70%;
+    margin:0 0 15px 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background-color: #E15D44;
+    color: white
+}

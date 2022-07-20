@@ -39,6 +39,16 @@ button{
     background-color: #E15D44;
     color: white
 }
+.calculate{
+    width: 70%;
+    margin:0 0 15px 30px;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    background-color: #E15D44;
+    color: white
+}
 
 /* Output Screen */
 .output{

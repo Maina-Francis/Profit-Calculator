@@ -59,3 +59,17 @@ document.getElementById("output-data").innerHTML +=
 document.getElementById("output-data").innerHTML +=
   "<p>Your weekly earnings will be Ksh." + yearlyIncome;
 document.getElementById("output-data").innerHTML += "<hr>";
+
+//leap year monthly totals Ksh.
+let janIncome = totalProduction * 31 * 45;
+let febIncome = totalProduction * 29 * 45;
+let marchIncome = totalProduction * 31 * 45;
+let aprincome = totalProduction * 30 * 45;
+let mayIncome = totalProduction * 31 * 45;
+let junincome = totalProduction * 30 * 45;
+let julIncome = totalProduction * 31 * 45;
+let augIncome = totalProduction * 31 * 45;
+let sepIncome = totalProduction * 30 * 45;
+let octincome = totalProduction * 31 * 45;
+let novIncome = totalProduction * 30 * 45;
+let decIncome = totalProduction * 31 * 45;

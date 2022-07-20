@@ -26,16 +26,16 @@
 
       <!-- form section -->
       <div class="form">
-        <form>
+        <form action="submit" onsubmit="makeReport();">
           <h3>Fill the form below to get a summary of your income:</h3>
           <p>Shed A</p>
-          <input type="number" required />
+          <input type="number" name="shed-a" id="shed-a" required />
           <p>Shed B</p>
-          <input type="number" required />
+          <input type="number" name="shed-b" id="shed-b" required />
           <p>Shed C</p>
-          <input type="number" required />
+          <input type="number" name="shed-c" id="shed-c" required />
           <p>Shed D</p>
-          <input type="number" required />
+          <input type="number" name="shed-d" id="shed-d" required />
           <button class="btn-calculate">Calculate</button>
           <button class="btn-reset">Reset</button>
         </form>
@@ -48,4 +48,6 @@
       </div>
     </div>
   </body>
+
+  <script src="assets/javascript/script.js"></script>
 </html>

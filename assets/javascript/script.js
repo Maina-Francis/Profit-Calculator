@@ -46,6 +46,16 @@ document.getElementById("output-data").innerHTML +=
 document.getElementById("output-data").innerHTML +=
   "<p>The total production is" +
   " " +
-  tdProduction +
+  totalProduction +
   " " +
   "Litres per day</p>";
+
+//weekly total liters
+let weeklyIncome = totalProduction * 7 * 45;
+let yearlyIncome = totalProduction * 365 * 45;
+document.getElementById("output-data").innerHTML += "<hr>";
+document.getElementById("output-data").innerHTML +=
+  "<p>Your weekly earnings will be Ksh." + " " + weeklyIncome + "</p>";
+document.getElementById("output-data").innerHTML +=
+  "<p>Your weekly earnings will be Ksh." + yearlyIncome;
+document.getElementById("output-data").innerHTML += "<hr>";

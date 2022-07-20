@@ -73,3 +73,35 @@ let sepIncome = totalProduction * 30 * 45;
 let octincome = totalProduction * 31 * 45;
 let novIncome = totalProduction * 30 * 45;
 let decIncome = totalProduction * 31 * 45;
+
+document.getElementById("output-data").innerHTML += "<br>";
+document.getElementById("output-data").innerHTML += "<hr>";
+document.getElementById("output-data").innerHTML +=
+  "<p>Your income for January is" + " " + janIncome;
+document.getElementById("output-data").innerHTML +=
+  "<p>Your income for February is" + " " + febIncome;
+document.getElementById("output-data").innerHTML +=
+  "<p>Your income for March is" + " " + marchIncome;
+document.getElementById("output-data").innerHTML +=
+  "<p>Your income for April is" + " " + aprincome;
+document.getElementById("output-data").innerHTML +=
+  "<p>Your income for May is" + " " + mayIncome;
+document.getElementById("output-data").innerHTML +=
+  "<p>Your income for June is" + " " + junincome;
+document.getElementById("output-data").innerHTML +=
+  "<p>Your income for July is" + " " + julIncome;
+document.getElementById("output-data").innerHTML +=
+  "<p>Your income for August is" + " " + augIncome;
+document.getElementById("output-data").innerHTML +=
+  "<p>Your income for September is" + " " + sepIncome;
+document.getElementById("output-data").innerHTML +=
+  "<p>Your income for October is" + " " + octincome;
+document.getElementById("output-data").innerHTML +=
+  "<p>your income for November is" + " " + novIncome;
+document.getElementById("output-data").innerHTML +=
+  "<p>Your income for december is" + " " + decIncome;
+
+function resetPage() {
+  document.getElementById("outputData").remove("innerHTML");
+  location.reload();
+}
